@@ -130,3 +130,7 @@ public void statusReportMessage(StatusReportMessage event) {
 | UpgradeStatusMessage | upgradeStatus | 设备升级状态 |
 | AutomationExternalActionMessage | automationExternalAction | 自动化外部动作 |
 | SceneExecuteMessage | sceneExecute | 场景执行 |
+
+### 文档更新
+
+- ak & sk填写的时候，一定不要带引号，否则会出现Invalid Topic错误
